@@ -27,7 +27,7 @@ SECRET_KEY = '$0)gaq45p1buved%rus3@e!#p__+9tsbi+3=%283&clf+wdoi&'
 DEBUG = True
 
 ALLOWED_HOSTS = ['franklindirioha37.pythonanywhere.com']
-
+#ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-      'whitenoise.middleware.WhiteNoiseMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'pepoz.urls'

@@ -43,3 +43,6 @@ def index(request):
 def core_leadership(request):
 
     return render(request,'leadership.html')
+
+def download(request):
+    return render(request,'download.html')

@@ -40,7 +40,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <a href="index.html"><img  style="width: 150px; height: 80px; border-radius: 10%;" src="{% static 'assets/img/logo.jpg' %}" alt="" class="img-fluid"></a>
+            <a href="{% url 'index' %}"><img  style="width: 150px; height: 80px; border-radius: 10%;" src="{% static 'assets/img/logo.jpg' %}" alt="" class="img-fluid"></a>
       
            <!-- <p>
               10 Ezeokan Crescent <br>
@@ -54,11 +54,12 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'index' %}">Home</a></li>
+             <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li> -->
               <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li> -->
               <!--  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
+            <p>For support or inquiries, feel free to reach out to us at pepozapp24@gmail.com</p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
